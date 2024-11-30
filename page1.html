@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+ <form action="page2.html"> 
+<div class="container">
+<div class="section">
+
+<h1>ADULT SIMPLIFIED RENEWAL PASSPORT APPLICATION</h1>
+
+<h2>for eligible Canadians applying in Canada or the USA </h2>
+<p>Warning: Any false or misleading statement with respect to this application and any supporting document, including the concealment 
+    of any material fact, may result in the refusal to issue a passport, the revocation of a currently valid passport, and/or the imposition 
+    of a period of refusal of passport services, and may be grounds for criminal prosecution as per subsection 57 (2) of the Criminal 
+    Code (R.C.S. 1985, C-46).</p>
+
+<h3>Type or print in CAPITAL LETTERS using black or dark blue ink.</h3>
+
+<div class="section-header">1 PERSONAL INFORMATION (SEE INSTRUCTIONS, SECTION I)</div>        
+<img src = "frame.jpg" width=25% height=226px style="float: right; margin-right:1px; margin-top:1px;margin-left:1px;margin-bottom:1px;">
+
+<label for="name">Surname (last name) as it appears in the most recent passport</label><br>
+<input type="text1" id="name" name="name"><br> 
+
+<label for="name">Given name(s) as it appears in the most recent passport</label><br>
+<input type="text1" id="name" name="name"><br>
+
+<label for="name">All former surnames (including surname at birth if different from above. These will not appear in the passport.)</label><br>
+<input type="text1" id="name" name="name"><br>
+
+<label for="name">Surname of a parent at birth</label><br>
+<input type="text1" id="name" name="name"><br>
+
+<label for="name">Applicant’s place of birth</label><br>
+<input type="text1" id="place" name="place"><br>
+
+<label for="place">City</label>
+<input type="text2" id="place" name="place">
+<label for="place">Country</label>
+<input type="text2" id="place" name="place"><br>
+
+<label for="DOB">Date of Birth: (MM/DD/YYYY)</label>
+<input type="DATE" id="DOB" name="DOB"><br>
+
+<label for="sex">Sex as it appears in the previous passport</label>
+<input type="radio" id="female" name="sex" value="female">
+<label for="sex">Female</label>
+<input type="radio" id="male" name="sex" value="male">
+<label for="sex">Male</label>
+<input type="radio" id="other" name="sex" value="other">
+<label for="age">Other</label><br>
+
+<label for="colour"> Natural eye colour</label>
+<input type="text3" id="eye" name="colour">
+<label for="height"> Height (cm)</label>
+<input type="number" id="height" name="height"><br> 
+
+<label for="place">Current home address</label>
+<input type="text4" id="place" name="place"><br>
+
+<label for="place">Mailing address (if different from current home address)</label>
+<input type="text5" id="place" name="place"><br>
+
+<label for="id">Email Address</label>
+<input type="text6" id="id" name="email">
+<label for="number">Telphone Number</label>
+<input type="number" id="number" name="number"><br>
+
+<p>Declaration—I solemnly declare that I am a Canadian citizen, that all of the information 
+    provided and all statements made on this application, as well as all documents and photos 
+    submitted to support this application are unaltered and true. I declare that I have read and 
+    understood the Warning at the top of this page and the Privacy Notice Statement in 
+    Instructions, section K. I consent to the collection, use and disclosure of my personal 
+    information as outlined in the Privacy Notice Statement.</p>
+
+<label for="name1">Sign within border</label>
+<input type="text7" id="name" name="name"><br> 
+
+<div class="section-header">2 MOST RECENT CANADIAN PASSPORT (SEE INSTRUCTIONS, SECTION J)</div>  
+
+<label for="number">Passwort number</label>
+<input type="text8" id="number" name="number"><br>
+
+<label for="DOB">Date of issue (MM/DD/YYYY)</label>
+<input type="DATE" id="date" name="date">
+<label for="DOB">Date of expiry(MM/DD/YYYY)</label>
+<input type="DATE" id="date" name="date"><br>
+
+<ul style="list-style-type: disc;">
+    <li>Enclose any Canadian passport issued to you that is not expired. If you cannot provide your most recent passport information, you cannot use this form. </li>
+    <li>If you are submitting a passport, would you like it to be cancelled and returned to you?</li>
+    </ul>
+
+<input type="radio" id="tick" name="tick" value="tick">
+<label for="permission">Yes, please return it to me. If this box is not checked, the passport will not be returned and will be securely destroyed.</label>
+
+<div class="section-header">3 CANADIAN CITIZENSHIP</div>
+
+<p>To be completed if you were born outside of Canada between February 15, 1977 and April 16, 1981 inclusive.</p>
+
+<label for="name">(a) Are you a naturalized Canadian, did you receive Canadian citizenship following immigration to Canada?</label><br>
+<input type="radio" id="canadian" name="canadian" value="yes">
+<label for="pages">Yes, go to section 4</label> 
+<input type="radio" id="canadian" name="canadian" value="no">
+<label for="pages">No,continue to question (b)</label><br>
+
+<label for="name">(b) Was one of your parents born in Canada?</label><br>
+<input type="radio" id="parent" name="parent" value="yes">
+<label for="pages">Yes, go to section 4</label> 
+<input type="radio" id="parent" name="parent" value="no">
+<label for="pages">No, continue to question (c)</label><br>
+
+<label for="name">(c) When was your current certificate of Canadian citizenship issued?</label><br>
+<input type="radio" id="date" name="date" value="date">
+<label for="pages">After January 1, 2007, submit the certificate with your application (original only)</label> <br>
+<input type="radio" id="date" name="date" value="date" style="margin-bottom: 19px;">
+<label for="pages">Before January 1, 2007, complete and submit form</label><br>
+
+<label for="fileUpload">your documents like DOB certificate.,ID proof</label><br>
+<input type="file"  name="file" id="fileUpload" required ><br>
+
+</div>
+</div>
+<input type="submit" value="next">
+</form>   
+</body>
+</html>
